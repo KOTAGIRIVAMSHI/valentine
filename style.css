@@ -1,0 +1,190 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffebee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #d32f2f;
+    font-size: 2rem;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #d32f2f;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #b71c1c;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #personalLink {
+    color: #d32f2f;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #personalLink:hover {
+    text-decoration: underline;
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffebee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #d32f2f;
+    font-size: 2rem;
+  }
+  
+  #message {
+    font-size: 1.2rem;
+    color: #d32f2f;
+    margin: 10px 0;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  #yesButton {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #yesButton:hover {
+    background-color: #388e3c;
+  }
+  
+  #noButton {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #noButton:hover {
+    background-color: #d32f2f;
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffebee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden; /* Prevent scrolling when the "No" button moves */
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative; /* Ensure the container is the reference for absolute positioning */
+    width: 80%; /* Adjust as needed */
+    max-width: 600px; /* Adjust as needed */
+  }
+  
+  h1 {
+    color: #d32f2f;
+    font-size: 2rem;
+  }
+  
+  #message {
+    font-size: 1.2rem;
+    color: #d32f2f;
+    margin: 10px 0;
+  }
+  
+  .gift {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    position: relative; /* Ensure buttons are positioned relative to the container */
+  }
+  
+  #yesButton {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: font-size 0.3s ease; /* Smooth transition for button growth */
+  }
+  
+  #yesButton:hover {
+    background-color: #388e3c;
+  }
+  
+  #noButton {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: left 
